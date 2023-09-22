@@ -49,6 +49,7 @@ public class PlayerControl : MonoBehaviour
 
 
 
+        // –азворот персонажа в сторону движени€
         if (x != 0 && x < 0) _sr.flipX = true;
         else if (x != 0 && x > 0) _sr.flipX = false;
 
