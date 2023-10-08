@@ -56,7 +56,13 @@
     <Analyzer Include="D:\VS Среда разработки\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameDev Sector Scprits\GameSectorEntry.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\Default Sector Scripts\DefaultSectorEntry.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\DialogueMainScript.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\DialogueTrigger.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\DialogueAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
