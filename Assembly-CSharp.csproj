@@ -58,16 +58,21 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameDev Sector Scprits\GameSectorEntry.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerControl.cs" />
-    <Compile Include="Assets\Scripts\Default Sector Scripts\DefaultSectorEntry.cs" />
-    <Compile Include="Assets\Scripts\DialogueScripts\DialogueMainScript.cs" />
-    <Compile Include="Assets\Scripts\DialogueScripts\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\DialogueScripts\DialogueTrigger.cs" />
-    <Compile Include="Assets\Scripts\DialogueScripts\DialogueAnimator.cs" />
-    <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Music_Player.cs" />
-    <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Sound_Controller.cs" />
-    <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Menu_Controller.cs" />
     <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Escape_Menu.cs" />
+    <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Sound_Controller.cs" />
+    <Compile Include="Assets\Scripts\Default Sector Scripts\DefaultSectorEntry.cs" />
     <Compile Include="Assets\Scripts\IntroScripts\StartGameButton.cs" />
+    <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Music_Player.cs" />
+    <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Menu_Controller.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueManager.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueTrigger.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\ClickMovement.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueCharacter.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\Door.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\Movement2D.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueUI.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\SimpleNavAgentAnimation.cs" />
+    <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\FollowTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

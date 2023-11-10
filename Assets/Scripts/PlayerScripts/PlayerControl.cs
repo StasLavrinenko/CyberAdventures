@@ -49,25 +49,25 @@ public class PlayerControl : MonoBehaviour
 
 
 
-        // Разворот персонажа в сторону движения
+        // Розворот персонажа в сторону руху
         if (x != 0 && x < 0) _sr.flipX = true;
         else if (x != 0 && x > 0) _sr.flipX = false;
 
     }
 
-    private void HorizontalMove(float x) //Метод движения влево - вправо
+    private void HorizontalMove(float x) //Рух вліво - вправо
     {
         _anim.SetFloat("HorizontalMove", Mathf.Abs(x));
     } 
 
-    private void MoveUp(float y) //Метод движения вверх
+    private void MoveUp(float y) //Рух уверх
     {
         if (y == 0) _anim.SetTrigger("StopMoving");
 
         _anim.SetFloat("VerticalMove", y);
     }
 
-    private void MoveDown(float y) //Метод движения вниз
+    private void MoveDown(float y) //Рух вних
     {
         if (y == 0) _anim.SetTrigger("StopMoving");
 
