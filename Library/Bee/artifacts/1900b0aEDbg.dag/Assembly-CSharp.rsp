@@ -372,8 +372,6 @@
 "Assets/Package/HeneGames/Dialogue System/Scripts/FollowTarget.cs"
 "Assets/Package/HeneGames/Dialogue System/Scripts/Movement2D.cs"
 "Assets/Package/HeneGames/Dialogue System/Scripts/SimpleNavAgentAnimation.cs"
-"Assets/Scripts/Default Sector Scripts/DefaultSectorEntry.cs"
-"Assets/Scripts/GameDev Sector Scprits/GameSectorEntry.cs"
 "Assets/Scripts/IntroScripts/StartGameButton.cs"
 "Assets/Scripts/PlayerScripts/PlayerControl.cs"
 -langversion:9.0
