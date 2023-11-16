@@ -373,6 +373,7 @@
 "Assets/Package/HeneGames/Dialogue System/Scripts/Movement2D.cs"
 "Assets/Package/HeneGames/Dialogue System/Scripts/SimpleNavAgentAnimation.cs"
 "Assets/Scripts/IntroScripts/StartGameButton.cs"
+"Assets/Scripts/NPCScripts/Gid/GidAnims.cs"
 "Assets/Scripts/PlayerScripts/PlayerControl.cs"
 -langversion:9.0
 
