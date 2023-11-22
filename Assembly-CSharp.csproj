@@ -63,7 +63,7 @@
     <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Sound_Controller.cs" />
     <Compile Include="Assets\Scripts\IntroScripts\StartGameButton.cs" />
-    <Compile Include="Assets\Scripts\NPCScripts\Gid\GidAnims.cs" />
+    <Compile Include="Assets\Scripts\NPCScripts\TalkingAnims.cs" />
     <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Music_Player.cs" />
     <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Menu_Controller.cs" />
     <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\Door.cs" />
