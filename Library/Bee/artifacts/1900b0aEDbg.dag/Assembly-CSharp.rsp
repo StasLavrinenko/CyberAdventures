@@ -375,6 +375,9 @@
 "Assets/Scripts/IntroScripts/StartGameButton.cs"
 "Assets/Scripts/NPCScripts/TalkingAnims.cs"
 "Assets/Scripts/PlayerScripts/PlayerControl.cs"
+"Assets/Scripts/QuiztScripts/AnswerButton.cs"
+"Assets/Scripts/QuiztScripts/QuestionData.cs"
+"Assets/Scripts/QuiztScripts/QuestionSetup.cs"
 -langversion:9.0
 
 /deterministic
