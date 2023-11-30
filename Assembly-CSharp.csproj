@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerControl.cs" />
     <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Escape_Menu.cs" />
     <Compile Include="Assets\Scripts\QuizyScripts\QuestionData.cs" />
+    <Compile Include="Assets\Scripts\QuizyScripts\OpenQuestionScene.cs" />
     <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\Package\AlpacaStudio_Menu_Template\Scripts\Sound_Controller.cs" />
     <Compile Include="Assets\Scripts\IntroScripts\StartGameButton.cs" />
@@ -75,7 +76,6 @@
     <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\Movement2D.cs" />
     <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\SimpleNavAgentAnimation.cs" />
     <Compile Include="Assets\Package\HeneGames\Dialogue System\Scripts\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\QuizyScripts\OpenQuestionScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Package\AurynSky\Arcades Pack 02\READ ME.txt" />

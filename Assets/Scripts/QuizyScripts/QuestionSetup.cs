@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class QuestionSetup : MonoBehaviour
 {
@@ -12,6 +14,11 @@ public class QuestionSetup : MonoBehaviour
     [SerializeField] private AnswerButton[] _answerButtons;
 
     [SerializeField] private int _correctAnswerChoice;
+
+    [SerializeField] private string _quizFolder;
+
+    [Header("Events")]
+    public UnityEvent EndQuizEvent;
 
     private QuestionData _currentQuestion;
 
@@ -29,7 +36,7 @@ public class QuestionSetup : MonoBehaviour
 
     private void GetQuestionAssets()
     {
-        _questions = new List<QuestionData>(Resources.LoadAll<QuestionData>("ITE"));
+        _questions = new List<QuestionData>(Resources.LoadAll<QuestionData>(_quizFolder));
     }
 
     private void SelectNewQuestions()
@@ -100,8 +107,13 @@ public class QuestionSetup : MonoBehaviour
         }
         else
         {
-            Debug.Log("It`s question is last!");   
+            EndQuizEvent.Invoke();  
         }
+    }
+
+    public void FinishQuiz()
+    {
+        SceneManager.LoadScene("Game");
     }
 
 }
