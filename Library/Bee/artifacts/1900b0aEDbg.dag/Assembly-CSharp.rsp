@@ -377,6 +377,7 @@
 "Assets/Scripts/NPCScripts/TalkingAnims.cs"
 "Assets/Scripts/PlayerScripts/PlayerControl.cs"
 "Assets/Scripts/PortalScripts/FinishTrigger.cs"
+"Assets/Scripts/PortalScripts/PortalActivate.cs"
 "Assets/Scripts/QuizyScripts/AnswerButton.cs"
 "Assets/Scripts/QuizyScripts/OpenQuestionScene.cs"
 "Assets/Scripts/QuizyScripts/QuestionData.cs"
