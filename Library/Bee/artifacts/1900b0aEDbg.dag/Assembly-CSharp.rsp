@@ -372,6 +372,7 @@
 "Assets/Package/HeneGames/Dialogue System/Scripts/FollowTarget.cs"
 "Assets/Package/HeneGames/Dialogue System/Scripts/Movement2D.cs"
 "Assets/Package/HeneGames/Dialogue System/Scripts/SimpleNavAgentAnimation.cs"
+"Assets/Scripts/CardKeyScripts/GetCardKey.cs"
 "Assets/Scripts/IntroScripts/StartGameButton.cs"
 "Assets/Scripts/NPCScripts/TalkingAnims.cs"
 "Assets/Scripts/PlayerScripts/PlayerControl.cs"

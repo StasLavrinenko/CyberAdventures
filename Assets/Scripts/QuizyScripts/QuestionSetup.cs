@@ -111,7 +111,7 @@ public class QuestionSetup : MonoBehaviour
         }
     }
 
-    public void FinishQuiz()
+    public void FinishQuizScene()
     {
         SceneManager.LoadScene("Game");
     }
