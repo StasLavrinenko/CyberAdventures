@@ -376,10 +376,13 @@
 "Assets/Scripts/IntroScripts/StartGameButton.cs"
 "Assets/Scripts/NPCScripts/TalkingAnims.cs"
 "Assets/Scripts/PlayerScripts/PlayerControl.cs"
+"Assets/Scripts/PortalScripts/FinishTrigger.cs"
 "Assets/Scripts/QuizyScripts/AnswerButton.cs"
 "Assets/Scripts/QuizyScripts/OpenQuestionScene.cs"
 "Assets/Scripts/QuizyScripts/QuestionData.cs"
 "Assets/Scripts/QuizyScripts/QuestionSetup.cs"
+"Assets/Scripts/ScoreSystemScripts/CyberScoreSystem.cs"
+"Assets/Scripts/ScoreSystemScripts/ScoreSystem.cs"
 -langversion:9.0
 
 /deterministic

@@ -12,15 +12,18 @@ public class QuestionSetup : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _questionText;
     [SerializeField] private TextMeshProUGUI _categoryText;
     [SerializeField] private AnswerButton[] _answerButtons;
+    [SerializeField] private ScoreSystem _scoreSystem;
 
     [SerializeField] private int _correctAnswerChoice;
 
-    [SerializeField] private string _quizFolder;
+    public string _quizFolder;
+
 
     [Header("Events")]
     public UnityEvent EndQuizEvent;
 
     private QuestionData _currentQuestion;
+
 
     private void Awake()
     {
@@ -58,6 +61,7 @@ public class QuestionSetup : MonoBehaviour
 
         for(int i = 0; i < _answerButtons.Length; i++)
         {
+
             bool _isCorrect = false;
 
             if(i == _correctAnswerChoice)
@@ -71,6 +75,8 @@ public class QuestionSetup : MonoBehaviour
         }
 
     }
+
+
 
     private List<string> RandomizeAnswers(List<string> _originalList)
     {
@@ -107,13 +113,8 @@ public class QuestionSetup : MonoBehaviour
         }
         else
         {
-            EndQuizEvent.Invoke();  
+            EndQuizEvent?.Invoke();
         }
-    }
-
-    public void FinishQuizScene()
-    {
-        SceneManager.LoadScene("Game");
     }
 
 }
